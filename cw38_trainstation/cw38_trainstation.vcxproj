@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="cw38_trainstation.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="Time_.cpp" />
     <ClCompile Include="Train.cpp" />
   </ItemGroup>

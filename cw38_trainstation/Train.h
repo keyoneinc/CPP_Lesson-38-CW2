@@ -23,5 +23,7 @@ public:
 
 	void showInfo()const;
 
+	bool operator< (const Train& obj)const&;
+
 };
 

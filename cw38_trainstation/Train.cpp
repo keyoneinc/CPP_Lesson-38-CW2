@@ -48,3 +48,8 @@ void Train::showInfo() const
 {
     cout << number << " | " << depature << " | " << direction << endl;
 }
+
+bool Train::operator<(const Train& obj) const&
+{
+    return this->depature < obj.depature;
+}
